@@ -1,6 +1,6 @@
 console.log(tag("Event: Console Has Started"))
 const startTime = Date.now();
-const version = "The current version is Prerelease 0.2.0 (UUID 0) this program is currently in development.";
+const version = "The current version is alpha 1.0.0 (Github release) this program is currently in development.";
 const dos = `
 
 
@@ -96,12 +96,13 @@ function Setname(username) {
 function Credits() {
     console.log(tag("Here are the credits:"))
     console.table([
-        ["Head Devoloper:", "9Nine_Tails", "example.com"]
+        ["Head Devoloper:", "9Nine_Tails", "https://github.com/9NineTails"]
     ])
 }
 function ChangeLog() {
     console.log(tag("Here is the changelog:"))
     console.table([
+        ["alpha 1.0.0","(Github release)","8/20/2024 (m/d/y)","github release, favicon, changelog update, +pfp png"],
         ["Prerelease 0.2.0", "UUID 0"],
         ["Prerelease 0.1.2", "Changelog & Credits"],
         ["Prerelease 0.1.1", "Localstorage 1"],
