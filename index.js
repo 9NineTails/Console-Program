@@ -80,7 +80,7 @@ function generateRandomUUID() {
 
 function uh() {
     alert("Something whent wrong!")
-    
+    window.location = "https://9ninetails.github.io/Console-Program/warning";
 }
 
 
