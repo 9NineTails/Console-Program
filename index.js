@@ -76,6 +76,18 @@ function generateRandomUUID() {
     }
     return lolcat
 }
+
+
+function uh() {
+    alert("Something whent wrong!")
+    window.location = "https://9ninetails.github.io/Console-Program/warning";
+}
+
+
+
+
+
+
 function GetConsoleCmnds() {
     console.log(tag("Here is a list of console commands you can use:"))
     console.table([
@@ -102,7 +114,7 @@ function Credits() {
 function ChangeLog() {
     console.log(tag("Here is the changelog:"))
     console.table([
-        ["alpha 1.0.0","(Github release)","8/20/2024 (m/d/y)","github release, favicon, changelog update, +pfp png"],
+        ["alpha 1.0.0", "(Github release)", "8/20/2024 (m/d/y)", "github release, favicon, changelog update, +pfp png"],
         ["Prerelease 0.2.0", "UUID 0"],
         ["Prerelease 0.1.2", "Changelog & Credits"],
         ["Prerelease 0.1.1", "Localstorage 1"],
