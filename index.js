@@ -33,16 +33,14 @@ addEventListener("load", (event) => {
     console.log(tag("Event: Load Event Has Happened"))
     const loadTime = Date.now();
     console.log(tag("The load event happened " + (loadTime - startTime) + "ms after the console has started"))
-    const clientInformation = `
-Client timezone found: ${Intl.DateTimeFormat().resolvedOptions().timeZone}
--
-userAgent found: ${navigator.userAgent};
--
+    const startInformation = `
+Client timezone: ${Intl.DateTimeFormat().resolvedOptions().timeZone}
+userAgent: ${navigator.userAgent};
 Client Platform found: ${navigator.userAgentData.platform}
--
-Language found: ${navigator.language}
+Language: ${navigator.language}
+Current Url: ${location}
 `
-    console.log(tag(clientInformation))
+    console.log(tag(startInformation))
     console.log(tag(dos))
     // localstorage
     let Visits = localStorage.getItem("Visits");
